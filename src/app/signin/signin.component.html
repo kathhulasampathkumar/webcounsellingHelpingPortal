@@ -1,0 +1,12 @@
+<form name="signinform"#ref="ngForm" id="form">
+    SIGNIN FORM
+<div class="form-group">
+    <input type="text" name="username" id="username" placeholder="enter your username" class="form-control" ngModel required #ref1="ngModel" pattern="^[a-z]{5,30}$">
+    <input type="password" name="password" id="password" placeholder="enter your password" class="form-control" ngModel required #ref2="ngModel" pattern="^[a-z]{5,30}$" >
+</div>
+    <input type="submit" value="signin" routerLink="/collegelist" >
+    <div>------------- OR SIGNUP A ACCOUNT --------------</div>
+    <input type="submit" value="signup" routerLink="/collegelist">
+    <span *ngIf="ref1.touched && ref1.invalid || ref2.touched && ref2.invalid ">* username  & password required</span>
+</form>
+

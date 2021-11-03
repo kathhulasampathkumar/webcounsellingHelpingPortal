@@ -1,0 +1,32 @@
+input[type=text],input[type=password],input[type=submit]{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+    border:2px solid rgb(22, 21, 22);
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 15px;
+
+}
+input[type=submit]{
+    background-color: green;
+}
+input[type=submit]:hover{
+    background-color: greenyellow;
+}
+footer{
+    margin-top: auto;
+}
+form{
+    width: 400px;
+    padding: 40px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    background-color: honeydew;
+    margin-left: 35%;
+    /* margin: 5% 35%; */
+    
+    
+
+}

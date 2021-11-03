@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(88, 94, 89);
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    
+    /* text-decoration: underline; */
+
+
+}
+#top{
+    margin-top: 10px;
+}
+h1{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-shadow: 5px 6px black;
+    color: red;
+}
+
+
+body{
+    background-image: url(../assets/images/homepage.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+    /* height: 100vh; */
+
+}
+footer{
+    margin-top: auto;
+    
+}

@@ -1,0 +1,55 @@
+.details{
+    display: none;
+}
+.details:hover{
+    color: black;
+    background-color: chartreuse;
+}
+
+
+
+.thumb-zoom img:hover ,
+.col-4 img:hover
+{
+    
+     
+    cursor: pointer;
+  transform: scale(1.2, 1.2);
+  transition-timing-function: ease-out;
+   transform: scale(1.2, 1.2);
+   transition-timing-function: ease-out;
+   transform: scale(1.20, 1.20);
+   transition-timing-function: ease-out;
+
+   transition-duration: 500ms;
+   transition-duration: 500ms;
+   transition-duration: 500ms;
+   border-radius: 25px;
+   border: 3px solid black;
+   /* opacity: 0.5; */
+} 
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid wheat;
+    border-radius: 25px;
+}
+footer{
+    margin-top: auto;
+} 
+body{
+    background-image: url(../../assets/images/homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.card{
+    /* opacity: 0.5; */
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.card-body{
+    /* opacity: 0.5; */
+}
